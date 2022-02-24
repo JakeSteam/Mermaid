@@ -256,4 +256,43 @@ flowchart TD
     direction RL
     d1 --> d2
     end
+
+```
+
+## Comments
+```mermaid
+flowchart LR
+    %% Comment here
+    a1 --> a2
+    %% Also here
+```
+
+```
+flowchart LR
+    %% Comment here
+    a1 --> a2
+    %% Also here
+```
+
+## Styling
+
+### Styling individual / groups of nodes
+
+```mermaid
+flowchart LR
+    Individual1 --> Individual2 --> Individual3
+    style Individual1 fill:#000, color:#fff, stroke:#333
+    style Individual2 fill:#fff, color:#000, stroke:#999
+    style Individual3 fill:#666, color:#f00, stroke:#0ff
+
+    Batch1:::myclass --> Batch2:::myclass --> Batch3:::myclass
+    classDef myclass fill:#571
+```
+
+### Styling all nodes
+
+```mermaid
+flowchart LR
+    Default1 --> Default2 --> Default3
+    classDef default fill:#A77
 ```
