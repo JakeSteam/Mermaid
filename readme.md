@@ -14,22 +14,21 @@ Meta:
 flowchart LR
     A[Start] --> B{Should you?}
     B -- Yes --> C{{Do it}}
-    B -- Maybe --> G[(Save for later)]
+    B -- Maybe --> D[(Save for later)]
     B -- No --> E[Okay]
 ```
 
 </td><td>
 
 ```
-flowchart TD
+flowchart LR
     A[Start] --> B{Should you?}
-    B -- Yes --> C[Do it]
-    B -- Maybe --> F{{Hmm}} --> G[(Save for later)]
-    C --> D[Regret]
-    D --> B
-    B -- No ----> E[Okay]
+    B -- Yes --> C{{Do it}}
+    B -- Maybe --> D[(Save for later)]
+    B -- No --> E[Okay]
 ```
-<a href="/1-flowchart.md">1: Flowchart</a>
+
+<a href="/1-flowchart.md">1: Flowchart syntax</a>
 </td></tr>
 <tr><td>
 
@@ -44,15 +43,47 @@ sequenceDiagram
 ```
 sequenceDiagram
     Alice ->>+ Bob: Here's a message!
-    Bob -->> Chris: What is this?
-    Chris --x Bob: I have no idea!
     Bob ->>- Alice: Hmm, ok, thanks.
 ```
-<a href="/2-sequence.md">2: Sequence</a>
+
+<a href="/2-sequence.md">2: Sequence diagram syntax</a>
 </td></tr>
 <tr><td>
+
+```mermaid
+classDiagram
+    class ClassName {
+        String stringName
+        Long longName
+        MyDatatype attributeName
+
+        functionName(parameter) ReturnType
+        functionName2(parameter2) ReturnType
+    }
+    class Interface {
+        Int intName
+    }
+    ClassName --|> Interface
+```
+
 </td><td>
-<a href="/3-class.md">3: Class</a></td></tr>
+
+```
+classDiagram
+    class ClassName {
+        String stringName
+        Long longName
+        MyDatatype attributeName
+
+        functionName(parameter) ReturnType
+        functionName2(parameter2) ReturnType
+    }
+    class Interface {
+        Int intName
+    }
+    ClassName --|> Interface
+```
+<a href="/3-class.md">3: Class diagram syntax</a></td></tr>
 <tr><td>
 </td><td>
 <a href="/4-state.md">4: State</a></td></tr>
