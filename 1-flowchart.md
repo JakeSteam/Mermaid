@@ -1,5 +1,15 @@
 # Flowcharts
 
+```mermaid
+flowchart TD
+    A[Start] --> B{Should you?}
+    B -- Yes --> C[Do it]
+    B -- Maybe --> F{{Hmm}} --> G[(Save for later)]
+    C --> D[Regret]
+    D --> B
+    B -- No ----> E[Okay]
+```
+
 ## Nodes
 
 ### Node styles
