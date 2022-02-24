@@ -6,9 +6,9 @@ Meta:
 * Overview (comments, configuring, etc)
 
 <table>
-<tr><td>Type</td><td>Example</td><td>Code</td></tr>
+<tr><td>Example</td><td>Code</td></tr>
 
-<tr><td><a href="/1-flowchart.md">1: Flowchart</a></td><td>
+<tr><td>
 
 ```mermaid
 flowchart LR
@@ -31,9 +31,9 @@ flowchart TD
     D --> B
     B -- No ----> E[Okay]
 ```
-
+<a href="/1-flowchart.md">1: Flowchart</a>
 </td></tr>
-<tr><td><a href="/2-sequence.md">2: Sequence</a></td><td>
+<tr><td>
 
 ```mermaid
 sequenceDiagram
@@ -52,31 +52,31 @@ sequenceDiagram
     Chris --x Bob: I have no idea!
     Bob ->>- Alice: Hmm, ok, thanks.
 ```
-
+<a href="/2-sequence.md">2: Sequence</a>
 </td></tr>
-<tr><td><a href="/3-class.md">3: Class</a></td><td>
+<tr><td>
 </td><td>
-</td></tr>
-<tr><td><a href="/4-state.md">4: State</a></td><td>
+<a href="/3-class.md">3: Class</a></td></tr>
+<tr><td>
 </td><td>
-</td></tr>
-<tr><td><a href="/5-entity-relationship.md">5: Entity Relationship</a></td><td>
+<a href="/4-state.md">4: State</a></td></tr>
+<tr><td>
 </td><td>
-</td></tr>
-<tr><td><a href="/6-user-journey.md">6: User Journey</a></td><td>
+<a href="/5-entity-relationship.md">5: Entity Relationship</a></td></tr>
+<tr><td>
 </td><td>
-</td></tr>
-<tr><td><a href="/7-gantt.md">7: Gantt</a></td><td>
+<a href="/6-user-journey.md">6: User Journey</a></td></tr>
+<tr><td>
 </td><td>
-</td></tr>
-<tr><td><a href="/8-pie.md">8: Pie</a></td><td>
+<a href="/7-gantt.md">7: Gantt</a></td></tr>
+<tr><td>
 </td><td>
-</td></tr>
-<tr><td><a href="/9-requirement">9: Requirement</a></td><td>
+<a href="/8-pie.md">8: Pie</a></td></tr>
+<tr><td>
 </td><td>
-</td></tr>
-<tr><td><a href="/10-others.md">10: Others</a></td><td>
+<a href="/9-requirement">9: Requirement</a></td></tr>
+<tr><td>
 </td><td>
-</td></tr>
+<a href="/10-others.md">10: Others</a></td></tr>
 
 </table>
