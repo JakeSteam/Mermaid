@@ -9,7 +9,7 @@ Meta:
 
 Types of chart:
 * [Flowchart](/1-flowchart.md)
-* Sequence
+* [Sequence](/2-sequence.md)
 * Class
 * State
 * Entity Relationship
