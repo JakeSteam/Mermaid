@@ -2,6 +2,8 @@
 
 ## Nodes
 
+### Node styles
+
 ```mermaid
 flowchart LR; 
     1(Rounded) --> 2([Super rounded]) --> 3[[Bordered]] --> 4>Indented]
@@ -16,9 +18,27 @@ flowchart LR;
     9[(Cylinder)] --> 10((Circle)) --> 11{Diamond} --> 12{{Hexagon}}
 ```
 
-## Links
+### Node hyperlinks
 
-### Link type
+```mermaid
+flowchart LR
+    1(Link in same window) --> 2(Link in new window)
+    click 1 "https://example.com" _self
+    click 2 "https://example.com" _blank
+```
+
+```
+flowchart LR
+    1(Link in same window) --> 2(Link in new window)
+    click 1 "https://example.com" _self
+    click 2 "https://example.com" _blank
+```
+
+*Note: It is possible to [use JavaScript for more advanced actions](https://mermaid-js.github.io/mermaid/#/flowchart?id=interaction) than a simple link.*
+
+## Connections
+
+### Connection styles
 
 ```mermaid
 flowchart LR
@@ -34,7 +54,7 @@ flowchart LR
     Thick === 3[Thick with text] == Text! === End
 ```
 
-### Link type
+### Connection types
 
 ```mermaid
 flowchart LR
@@ -50,7 +70,7 @@ flowchart LR
     3[Multisplit] & Multisplit2 --> Multisplit3 & Multisplit4
 ```
 
-### Link Length
+### Connection lengths
 
 ```mermaid
 flowchart LR
@@ -66,7 +86,7 @@ flowchart LR
     Superlong -----> Superlong2
 ```
     
-### Arrow type
+### Arrow types
 
 ```mermaid
 flowchart LR
@@ -289,9 +309,26 @@ flowchart LR
     classDef myclass fill:#571
 ```
 
+```
+flowchart LR
+    Individual1 --> Individual2 --> Individual3
+    style Individual1 fill:#000, color:#fff, stroke:#333
+    style Individual2 fill:#fff, color:#000, stroke:#999
+    style Individual3 fill:#666, color:#f00, stroke:#0ff
+
+    Batch1:::myclass --> Batch2:::myclass --> Batch3:::myclass
+    classDef myclass fill:#571
+```
+
 ### Styling all nodes
 
 ```mermaid
+flowchart LR
+    Default1 --> Default2 --> Default3
+    classDef default fill:#A77
+```
+
+```
 flowchart LR
     Default1 --> Default2 --> Default3
     classDef default fill:#A77
