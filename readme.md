@@ -13,11 +13,9 @@ Meta:
 ```mermaid
 flowchart LR
     A[Start] --> B{Should you?}
-    B -- Yes --> C[Do it]
-    B -- Maybe --> F{{Hmm}} --> G[(Save for later)]
-    C --> D[Regret]
-    D --> B
-    B -- No ----> E[Okay]
+    B -- Yes --> C{{Do it}}
+    B -- Maybe --> G[(Save for later)]
+    B -- No --> E[Okay]
 ```
 
 </td><td>
@@ -38,8 +36,6 @@ flowchart TD
 ```mermaid
 sequenceDiagram
     Alice ->>+ Bob: Here's a message!
-    Bob -->> Chris: What is this?
-    Chris --x Bob: I have no idea!
     Bob ->>- Alice: Hmm, ok, thanks.
 ```
 
