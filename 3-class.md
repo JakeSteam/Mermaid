@@ -76,7 +76,7 @@ classDiagram
 
 ### Annotations
 
-```
+```mermaid
 classDiagram
     class ClassName {
         <<annotation>>
@@ -86,7 +86,7 @@ classDiagram
     }
 ```
 
-```mermaid
+```
 classDiagram
     class ClassName {
         <<annotation>>
