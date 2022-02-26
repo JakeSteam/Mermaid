@@ -161,7 +161,27 @@ journey
 
 <a href="/6-user-journey.md">6: User Journey</a></td></tr>
 <tr><td>
+
+```mermaid
+gantt
+    Dated Milestone: milestone, m1, today, 1d
+    Relative Milestone: milestone, m2, after m1, 1d
+    Task 1: a1, today, 1d
+    Task 2: a2, after a1, 1d
+    Task 3: a3, today, 36hr
+```
+
 </td><td>
+
+```
+gantt
+    Dated Milestone: milestone, m1, today, 1d
+    Relative Milestone: milestone, m2, after m1, 1d
+    Task 1: a1, today, 1d
+    Task 2: a2, after a1, 1d
+    Task 3: a3, today, 36hr
+```
+
 <a href="/7-gantt.md">7: Gantt</a></td></tr>
 <tr><td>
 </td><td>
