@@ -255,7 +255,7 @@ pie
     containingElement - contains -> UptimeRequirement
 ```
 
-<a href="/requirement">Requirement diagram in Mermaid cheatsheet</a></td></tr>
+<a href="/requirement.md">Requirement diagram in Mermaid cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -282,5 +282,5 @@ gitGraph BT:
     merge branch2
 ```
 
-<a href="/git">Git graphs in Mermaid cheatsheet</a></td></tr>
+<a href="/git.md">Git graphs in Mermaid cheatsheet</a></td></tr>
 </table>
