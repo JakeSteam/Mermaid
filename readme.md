@@ -138,7 +138,27 @@ erDiagram
 ```
 <a href="/5-entity-relationship.md">5: Entity Relationship</a></td></tr>
 <tr><td>
+
+```mermaid
+journey
+    title User Journey
+    section Logging in
+        Navigate to login: 4: Alice, Bob, Craig
+        Entering details: 2: Alice, Bob
+        Pressing button: 5: Alice
+```
+
 </td><td>
+
+```
+journey
+    title User Journey
+    section Logging in
+        Navigate to login: 4: Alice, Bob, Craig
+        Entering details: 2: Alice, Bob
+        Pressing button: 5: Alice
+```
+
 <a href="/6-user-journey.md">6: User Journey</a></td></tr>
 <tr><td>
 </td><td>
