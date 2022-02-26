@@ -48,7 +48,7 @@ gantt
     %% or `todayMarker off`
     Dated Milestone: milestone, m1, 3d
     Relative Milestone: milestone, m2, after m1, 5d
-    Task 1: a1, 3d
+    Task 1: a1, today, 3d
     Task 2: a2, after a1, 5d
 ```
 
@@ -101,11 +101,10 @@ gantt
     Clickable link 1: a1, 2020-01-01, 3d
     Clickable link 2: a2, after a1, 5d
     click a1 href "https://example.com"
-    click a2 call alert('ahhh')
+    click a2 call "https://example.com/2"
 ```
 
-JavaScript click events can also be triggered, see [official documentation](https://mermaid-js.github.io/mermaid/#/gantt?id=interaction)
-
+JavaScript click events can also be triggered, see [official documentation](https://mermaid-js.github.io/mermaid/#/gantt?id=interaction).
 ### Styling
 
 Styling is performed with CSS, see [official documentation](https://mermaid-js.github.io/mermaid/#/gantt?id=styling).
