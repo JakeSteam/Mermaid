@@ -28,7 +28,7 @@ flowchart LR
     B -- No --> E[Okay]
 ```
 
-<a href="/1-flowchart.md">1: Flowchart syntax</a>
+<a href="/1-flowchart.md">Flowchart cheatsheet</a>
 </td></tr>
 <tr><td>
 
@@ -46,7 +46,7 @@ sequenceDiagram
     Bob ->>- Alice: Hmm, ok, thanks.
 ```
 
-<a href="/2-sequence.md">2: Sequence diagram syntax</a>
+<a href="/2-sequence.md">Sequence diagram cheatsheet</a>
 </td></tr>
 <tr><td>
 
@@ -83,7 +83,7 @@ classDiagram
     }
     ClassName --|> Interface
 ```
-<a href="/3-class.md">3: Class diagram syntax</a></td></tr>
+<a href="/3-class.md">Class diagram cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -100,7 +100,7 @@ stateDiagram-v2
     Moving --> Stationary : Stop moving
 ```
 
-<a href="/4-state.md">4: State</a></td></tr>
+<a href="/4-state.md">State diagram cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -136,7 +136,7 @@ erDiagram
 
     Server ||--o{ User : has
 ```
-<a href="/5-entity-relationship.md">5: Entity Relationship</a></td></tr>
+<a href="/5-entity-relationship.md">Entity relationship diagram cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -159,7 +159,7 @@ journey
         Pressing button: 5: Alice
 ```
 
-<a href="/6-user-journey.md">6: User Journey</a></td></tr>
+<a href="/6-user-journey.md">User journey diagram cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -182,7 +182,7 @@ gantt
     Task 3: a3, today, 36hr
 ```
 
-<a href="/7-gantt.md">7: Gantt</a></td></tr>
+<a href="/7-gantt.md">Gantt chart cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -205,9 +205,59 @@ pie
     "Passionfruits" : 12.5
 ```
 
-<a href="/8-pie.md">8: Pie</a></td></tr>
+<a href="/8-pie.md">Pie chart cheatsheet</a></td></tr>
 <tr><td>
+
+```mermaid
+    requirementDiagram
+
+    requirement UptimeRequirement {
+        id: 1
+        text: Site Uptime 
+        risk: Medium
+        verifymethod: Analysis
+    }
+
+    element satisfyingElement {
+        type: MyElement
+        docref: ABC001
+    }
+
+    element containingElement {
+        type: MyElement
+        docref: ABC002
+    }
+
+    satisfyingElement - satisfies -> UptimeRequirement
+    containingElement - contains -> UptimeRequirement
+```
+
 </td><td>
-<a href="/9-requirement">9: Requirement</a></td></tr>
+
+```
+    requirementDiagram
+
+    requirement UptimeRequirement {
+        id: 1
+        text: Site Uptime 
+        risk: Medium
+        verifymethod: Analysis
+    }
+
+    element satisfyingElement {
+        type: MyElement
+        docref: ABC001
+    }
+
+    element containingElement {
+        type: MyElement
+        docref: ABC002
+    }
+
+    satisfyingElement - satisfies -> UptimeRequirement
+    containingElement - contains -> UptimeRequirement
+```
+
+<a href="/9-requirement">Requirement diagram cheatsheet</a></td></tr>
 
 </table>
