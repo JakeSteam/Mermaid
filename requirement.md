@@ -1,4 +1,6 @@
-# Requirement diagrams
+# Requirement diagrams cheatsheet
+
+[Official documentation](https://mermaid-js.github.io/mermaid/#/requirementDiagram).
 
 ## Defining requirements
 

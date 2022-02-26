@@ -1,9 +1,6 @@
 # Mermaid syntax references
 
-A concise rewrite of [the mermaid documentation](https://mermaid-js.github.io/mermaid/) for quick lookups.
-
-Meta:
-* Overview (comments, configuring, etc)
+A concise rewrite of [the Mermaid documentation](https://mermaid-js.github.io/mermaid/) as a learning aid and cheatsheet.
 
 <table>
 <tr><td>Example</td><td>Code</td></tr>
@@ -28,7 +25,7 @@ flowchart LR
     B -- No --> E[Okay]
 ```
 
-<a href="/1-flowchart.md">Flowchart cheatsheet</a>
+<a href="/flowchart.md">Flowchart in Mermaid cheatsheet</a>
 </td></tr>
 <tr><td>
 
@@ -46,7 +43,7 @@ sequenceDiagram
     Bob ->>- Alice: Hmm, ok, thanks.
 ```
 
-<a href="/2-sequence.md">Sequence diagram cheatsheet</a>
+<a href="/sequence.md">Sequence diagram in Mermaid cheatsheet</a>
 </td></tr>
 <tr><td>
 
@@ -83,7 +80,7 @@ classDiagram
     }
     ClassName --|> Interface
 ```
-<a href="/3-class.md">Class diagram cheatsheet</a></td></tr>
+<a href="/class.md">Class diagram in Mermaid cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -100,7 +97,7 @@ stateDiagram-v2
     Moving --> Stationary : Stop moving
 ```
 
-<a href="/4-state.md">State diagram cheatsheet</a></td></tr>
+<a href="/state.md">State diagram in Mermaid cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -136,7 +133,7 @@ erDiagram
 
     Server ||--o{ User : has
 ```
-<a href="/5-entity-relationship.md">Entity relationship diagram cheatsheet</a></td></tr>
+<a href="/entity-relationship.md">Entity relationship diagram in Mermaid cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -159,7 +156,7 @@ journey
         Pressing button: 5: Alice
 ```
 
-<a href="/6-user-journey.md">User journey diagram cheatsheet</a></td></tr>
+<a href="/user-journey.md">User journey diagram in Mermaid cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -182,7 +179,7 @@ gantt
     Task 3: a3, today, 36hr
 ```
 
-<a href="/7-gantt.md">Gantt chart cheatsheet</a></td></tr>
+<a href="/gantt.md">Gantt chart in Mermaid cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -205,7 +202,7 @@ pie
     "Passionfruits" : 12.5
 ```
 
-<a href="/8-pie.md">Pie chart cheatsheet</a></td></tr>
+<a href="/pie.md">Pie chart in Mermaid cheatsheet</a></td></tr>
 <tr><td>
 
 ```mermaid
@@ -258,6 +255,32 @@ pie
     containingElement - contains -> UptimeRequirement
 ```
 
-<a href="/9-requirement">Requirement diagram cheatsheet</a></td></tr>
+<a href="/requirement">Requirement diagram in Mermaid cheatsheet</a></td></tr>
+<tr><td>
 
+```mermaid
+gitGraph BT:
+    commit
+    branch branch2
+    checkout branch2
+    commit
+    checkout master
+    commit
+    merge branch2
+```
+
+</td><td>
+
+```
+gitGraph BT:
+    commit
+    branch branch2
+    checkout branch2
+    commit
+    checkout master
+    commit
+    merge branch2
+```
+
+<a href="/git">Git graphs in Mermaid cheatsheet</a></td></tr>
 </table>
