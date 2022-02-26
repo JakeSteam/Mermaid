@@ -46,7 +46,7 @@ gantt
 gantt
     todayMarker stroke-width:5px,stroke:#0f0,opacity:0.5
     %% or `todayMarker off`
-    Dated Milestone: milestone, m1, 3d
+    Dated Milestone: milestone, m1, today, 3d
     Relative Milestone: milestone, m2, after m1, 5d
     Task 1: a1, today, 3d
     Task 2: a2, after a1, 5d
