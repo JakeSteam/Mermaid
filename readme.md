@@ -184,13 +184,30 @@ gantt
 
 <a href="/7-gantt.md">7: Gantt</a></td></tr>
 <tr><td>
+
+```mermaid
+pie
+    title Fruits
+    "Apples" : 50
+    "Oranges" : 20
+    "Grapes" : 9.99
+    "Passionfruits" : 12.5
+```
+
 </td><td>
+
+```
+pie
+    title Fruits
+    "Apples" : 50
+    "Oranges" : 20
+    "Grapes" : 9.99
+    "Passionfruits" : 12.5
+```
+
 <a href="/8-pie.md">8: Pie</a></td></tr>
 <tr><td>
 </td><td>
 <a href="/9-requirement">9: Requirement</a></td></tr>
-<tr><td>
-</td><td>
-<a href="/10-others.md">10: Others</a></td></tr>
 
 </table>
