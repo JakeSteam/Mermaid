@@ -1,6 +1,6 @@
 # Mermaid syntax references
 
-A concise rewrite of [the Mermaid documentation](https://mermaid-js.github.io/mermaid/) as a learning aid and cheatsheet.
+A rewrite of [the Mermaid documentation](https://mermaid-js.github.io/mermaid/) as a learning aid and cheatsheet.
 
 <table>
 <tr><td>Example</td><td>Code</td></tr>
