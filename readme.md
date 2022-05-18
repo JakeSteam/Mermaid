@@ -260,6 +260,7 @@ pie
 
 ```mermaid
 gitGraph BT:
+    branch master
     commit
     branch branch2
     checkout branch2
@@ -273,6 +274,7 @@ gitGraph BT:
 
 ```
 gitGraph BT:
+    branch master
     commit
     branch branch2
     checkout branch2
