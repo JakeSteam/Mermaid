@@ -161,22 +161,22 @@ journey
 
 ```mermaid
 gantt
-    Dated Milestone: milestone, m1, today, 1d
+    Dated Milestone: milestone, m1, 2023-01-01, 1d
     Relative Milestone: milestone, m2, after m1, 1d
-    Task 1: a1, today, 1d
+    Task 1: a1, 2023-01-01, 1d
     Task 2: a2, after a1, 1d
-    Task 3: a3, today, 36hr
+    Task 3: a3, 2023-01-01, 36hr
 ```
 
 </td><td>
 
 ```
 gantt
-    Dated Milestone: milestone, m1, today, 1d
+    Dated Milestone: milestone, m1, 2023-01-01, 1d
     Relative Milestone: milestone, m2, after m1, 1d
-    Task 1: a1, today, 1d
+    Task 1: a1, 2023-01-01, 1d
     Task 2: a2, after a1, 1d
-    Task 3: a3, today, 36hr
+    Task 3: a3, 2023-01-01, 36hr
 ```
 
 <a href="/gantt.md">Gantt chart in Mermaid cheatsheet</a></td></tr>
