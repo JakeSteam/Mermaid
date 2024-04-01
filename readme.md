@@ -259,7 +259,7 @@ pie
 <tr><td>
 
 ```mermaid
-gitGraph BT:
+gitGraph:
     commit
     branch branch2
     checkout branch2
@@ -272,7 +272,7 @@ gitGraph BT:
 </td><td>
 
 ```
-gitGraph BT:
+gitGraph:
     commit
     branch branch2
     checkout branch2
