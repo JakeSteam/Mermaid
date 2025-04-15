@@ -1,6 +1,9 @@
+> [!WARNING]  
+> This PR reflects Mermaid syntax as of ~2022, and doesn't include newer diagram types (yet). Feel free to raise a PR adding them!
+
 # Mermaid syntax references
 
-A rewrite of [the Mermaid documentation](https://mermaid-js.github.io/mermaid/) as a learning aid and cheatsheet.
+A rewrite of [the Mermaid documentation](https://mermaid.js.org/intro/syntax-reference.html) as a learning aid and cheatsheet.
 
 <table>
 <tr><td>Example</td><td>Code</td></tr>
