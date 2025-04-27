@@ -29,6 +29,7 @@ flowchart LR
 ```
 
 <a href="/flowchart.md">Flowchart in Mermaid cheatsheet</a>
+
 </td></tr>
 <tr><td>
 
@@ -47,6 +48,7 @@ sequenceDiagram
 ```
 
 <a href="/sequence.md">Sequence diagram in Mermaid cheatsheet</a>
+
 </td></tr>
 <tr><td>
 
@@ -83,7 +85,9 @@ classDiagram
     }
     ClassName --|> Interface
 ```
+
 <a href="/class.md">Class diagram in Mermaid cheatsheet</a></td></tr>
+
 <tr><td>
 
 ```mermaid
@@ -101,6 +105,7 @@ stateDiagram-v2
 ```
 
 <a href="/state.md">State diagram in Mermaid cheatsheet</a></td></tr>
+
 <tr><td>
 
 ```mermaid
@@ -136,7 +141,9 @@ erDiagram
 
     Server ||--o{ User : has
 ```
+
 <a href="/entity-relationship.md">Entity relationship diagram in Mermaid cheatsheet</a></td></tr>
+
 <tr><td>
 
 ```mermaid
@@ -160,6 +167,7 @@ journey
 ```
 
 <a href="/user-journey.md">User journey diagram in Mermaid cheatsheet</a></td></tr>
+
 <tr><td>
 
 ```mermaid
@@ -183,6 +191,7 @@ gantt
 ```
 
 <a href="/gantt.md">Gantt chart in Mermaid cheatsheet</a></td></tr>
+
 <tr><td>
 
 ```mermaid
@@ -206,6 +215,43 @@ pie
 ```
 
 <a href="/pie.md">Pie chart in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+quadrantChart
+    title Title of quadrant chart
+    x-axis X low value --> X high value
+    y-axis Y low value --> Y high value
+    quadrant-1 Top right name
+    quadrant-2 Top left name
+    quadrant-3 Bottom left name
+    quadrant-4 Bottom right name
+    Value A: [0.1, 0.2]
+    Value B: [0.9, 0.8]
+    Value C: [0.5, 0.5]
+    Value D: [0.9, 0.9]
+```
+
+</td><td>
+
+```
+quadrantChart
+    title Title of quadrant chart
+    x-axis X low value --> X high value
+    y-axis Y low value --> Y high value
+    quadrant-1 Top right name
+    quadrant-2 Top left name
+    quadrant-3 Bottom left name
+    quadrant-4 Bottom right name
+    Value A: [0.1, 0.2]
+    Value B: [0.9, 0.8]
+    Value C: [0.5, 0.5]
+    Value D: [0.9, 0.9]
+```
+
+<a href="/quadrant.md">Quadrant diagram in Mermaid cheatsheet</a></td></tr>
+
 <tr><td>
 
 ```mermaid
@@ -213,7 +259,7 @@ pie
 
     requirement UptimeRequirement {
         id: 1
-        text: Site Uptime 
+        text: Site Uptime
         risk: Medium
         verifymethod: Analysis
     }
@@ -239,7 +285,7 @@ pie
 
     requirement UptimeRequirement {
         id: 1
-        text: Site Uptime 
+        text: Site Uptime
         risk: Medium
         verifymethod: Analysis
     }
@@ -259,6 +305,7 @@ pie
 ```
 
 <a href="/requirement.md">Requirement diagram in Mermaid cheatsheet</a></td></tr>
+
 <tr><td>
 
 ```mermaid
@@ -286,4 +333,159 @@ gitGraph:
 ```
 
 <a href="/git.md">Git graphs in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    C4
+```
+
+</td><td>
+
+```
+    C4
+```
+
+<a href="/c4.md">C4 diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    mindmaps
+```
+
+</td><td>
+
+```
+    mindmaps
+```
+
+<a href="/mindmaps.md">Mindmaps diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    timeline
+```
+
+</td><td>
+
+```
+    timeline
+```
+
+<a href="/timeline.md">Timeline diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    zenUML
+```
+
+</td><td>
+
+```
+    zenUML
+```
+
+<a href="/zenuml.md">ZenUML diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    sankey
+```
+
+</td><td>
+
+```
+    sankey
+```
+
+<a href="/sankey.md">Sankey diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    XY
+```
+
+</td><td>
+
+```
+    XY
+```
+
+<a href="/xy.md">XY diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    block
+```
+
+</td><td>
+
+```
+    block
+```
+
+<a href="/block.md">Block diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    packet
+```
+
+</td><td>
+
+```
+    packet
+```
+
+<a href="/packet.md">Packet diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    kanban
+```
+
+</td><td>
+
+```
+    kanban
+```
+
+<a href="/kanban.md">Kanban diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    architecture
+```
+
+</td><td>
+
+```
+    architecture
+```
+
+<a href="/architecture.md">Architecture diagram in Mermaid cheatsheet</a></td></tr>
+
+<tr><td>
+
+```mermaid
+    radar
+```
+
+</td><td>
+
+```
+    radar
+```
+
+<a href="/radar.md">Radar diagram in Mermaid cheatsheet</a></td></tr>
+
 </table>
