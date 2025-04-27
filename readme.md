@@ -413,13 +413,25 @@ mindmap
 <tr><td>
 
 ```mermaid
-    timeline
+timeline
+    title Timeline title
+    2001: Something happened
+    2002: Something else happened
+    2003: Another thing happened
+    Whenever: This happened!
+            : And this!
 ```
 
 </td><td>
 
 ```
-    timeline
+timeline
+    title Timeline title
+    2001: Something happened
+    2002: Something else happened
+    2003: Another thing happened
+    Whenever: This happened!
+            : And this!
 ```
 
 <a href="/timeline.md">Timeline diagram in Mermaid cheatsheet</a></td></tr>
@@ -427,13 +439,27 @@ mindmap
 <tr><td>
 
 ```mermaid
-    zenUML
+zenuml
+    @Actor "An actor"
+    @VirtualMachine "A virtual machine"
+    @GoogleSecurity "Google Security"
+    @S3 "S3 bucket"
+    "An actor"->"A virtual machine": Uses
+    "A virtual machine"->"Google Security": Logs in
+    "Google Security"->"S3 bucket": Stores data
 ```
 
 </td><td>
 
 ```
-    zenUML
+zenuml
+    @Actor "An actor"
+    @VirtualMachine "A virtual machine"
+    @GoogleSecurity "Google Security"
+    @S3 "S3 bucket"
+    "An actor"->"A virtual machine": Uses
+    "A virtual machine"->"Google Security": Logs in
+    "Google Security"->"S3 bucket": Stores data
 ```
 
 <a href="/zenuml.md">ZenUML diagram in Mermaid cheatsheet</a></td></tr>
@@ -441,13 +467,31 @@ mindmap
 <tr><td>
 
 ```mermaid
-    sankey
+sankey-beta
+    BlockA,SubblockA,100
+    BlockA,SubblockB,50
+    BlockA,SubblockC,10
+    SubblockA,SubsubblockA,70
+    SubblockA,SubsubblockC,30
+    SubblockB,SubsubblockA,50
+    SubblockC,SubsubblockB,7
+    SubblockC,SubsubblockD,80
+    BlockB,SubsubblockD,20
 ```
 
 </td><td>
 
 ```
-    sankey
+sankey-beta
+    BlockA,SubblockA,100
+    BlockA,SubblockB,50
+    BlockA,SubblockC,10
+    SubblockA,SubsubblockA,70
+    SubblockA,SubsubblockC,30
+    SubblockB,SubsubblockA,50
+    SubblockC,SubsubblockB,7
+    SubblockC,SubsubblockD,80
+    BlockB,SubsubblockD,20
 ```
 
 <a href="/sankey.md">Sankey diagram in Mermaid cheatsheet</a></td></tr>
