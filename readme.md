@@ -381,13 +381,31 @@ C4Dynamic
 <tr><td>
 
 ```mermaid
-    mindmaps
+mindmap
+    Middle element
+        Branch 1
+        Branch 2
+        Branch 3
+        Branch 4
+            Sub-branch 1
+            Sub-branch 2
+            Sub-branch 3
+                Sub-sub-branch 1
 ```
 
 </td><td>
 
 ```
-    mindmaps
+mindmap
+    Middle element
+        Branch 1
+        Branch 2
+        Branch 3
+        Branch 4
+            Sub-branch 1
+            Sub-branch 2
+            Sub-branch 3
+                Sub-sub-branch 1
 ```
 
 <a href="/mindmaps.md">Mindmaps diagram in Mermaid cheatsheet</a></td></tr>
