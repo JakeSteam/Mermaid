@@ -338,13 +338,13 @@ gitGraph:
 
 ```mermaid
 C4Dynamic
-    title Dynamic diagram for Internet Banking System - API Application
+    title Internet Banking System Application
 
-    ContainerDb(c4, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-    Container(c1, "Single-Page Application", "JavaScript and Angular", "Provides all of the Internet banking functionality to customers via their web browser.")
+    ContainerDb(c4, "Database", "Schema", "Stores etc.")
+    Container(c1, "SPA", "JS", "Banking.")
     Container_Boundary(b, "API Application") {
-      Component(c3, "Security Component", "Spring Bean", "Provides functionality Related to signing in, changing passwords, etc.")
-      Component(c2, "Sign In Controller", "Spring MVC Rest Controller", "Allows users to sign in to the Internet Banking System.")
+      Component(c3, "Security", "Bean", "Login.")
+      Component(c2, "Controller", "Controller", "Access.")
     }
     Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
     Rel(c2, c3, "Calls isAuthenticated() on")
@@ -359,13 +359,13 @@ C4Dynamic
 
 ```
 C4Dynamic
-    title Dynamic diagram for Internet Banking System - API Application
+    title Internet Banking System Application
 
-    ContainerDb(c4, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-    Container(c1, "Single-Page Application", "JavaScript and Angular", "Provides all of the Internet banking functionality to customers via their web browser.")
+    ContainerDb(c4, "Database", "Schema", "Stores etc.")
+    Container(c1, "SPA", "JS", "Banking.")
     Container_Boundary(b, "API Application") {
-      Component(c3, "Security Component", "Spring Bean", "Provides functionality Related to signing in, changing passwords, etc.")
-      Component(c2, "Sign In Controller", "Spring MVC Rest Controller", "Allows users to sign in to the Internet Banking System.")
+      Component(c3, "Security", "Bean", "Login.")
+      Component(c2, "Controller", "Controller", "Access.")
     }
     Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
     Rel(c2, c3, "Calls isAuthenticated() on")
@@ -492,10 +492,10 @@ sankey-beta
 ```mermaid
 xychart-beta
     title "Chart title"
-    x-axis "Some months" [January, Febuary, March, April, May]
+    x-axis "Some months" [January, Febuary, March]
     y-axis "How much I like them" 0.0 --> 1.0
-    bar [0.3, 0.1, 0.4, 0.8, 0.6]
-    line [5000, 6000, 7500, 8200, 9500]
+    bar [0.3, 0.1, 0.4]
+    line [5000, 6000, 7500]
 ```
 
 </td><td>
@@ -503,10 +503,10 @@ xychart-beta
 ```
 xychart-beta
     title "Chart title"
-    x-axis "Some months" [January, Febuary, March, April, May]
+    x-axis "Some months" [January, Febuary, March]
     y-axis "How much I like them" 0.0 --> 1.0
-    bar [0.3, 0.1, 0.4, 0.8, 0.6]
-    line [5000, 6000, 7500, 8200, 9500]
+    bar [0.3, 0.1, 0.4]
+    line [5000, 6000, 7500]
 ```
 
 <a href="/xy.md">XY diagram in Mermaid cheatsheet</a></td></tr>
