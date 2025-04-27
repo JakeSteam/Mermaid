@@ -349,10 +349,6 @@ C4Dynamic
     Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
     Rel(c2, c3, "Calls isAuthenticated() on")
     Rel(c3, c4, "select * from users where username = ?", "JDBC")
-
-    UpdateRelStyle(c1, c2, $textColor="red", $offsetY="-40")
-    UpdateRelStyle(c2, c3, $textColor="red", $offsetX="-40", $offsetY="60")
-    UpdateRelStyle(c3, c4, $textColor="red", $offsetY="-40", $offsetX="10")
 ```
 
 </td><td>
@@ -370,10 +366,6 @@ C4Dynamic
     Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
     Rel(c2, c3, "Calls isAuthenticated() on")
     Rel(c3, c4, "select * from users where username = ?", "JDBC")
-
-    UpdateRelStyle(c1, c2, $textColor="red", $offsetY="-40")
-    UpdateRelStyle(c2, c3, $textColor="red", $offsetX="-40", $offsetY="60")
-    UpdateRelStyle(c3, c4, $textColor="red", $offsetY="-40", $offsetX="10")
 ```
 
 <a href="/c4.md">C4 diagram in Mermaid cheatsheet</a></td></tr>
@@ -576,7 +568,7 @@ kanban
         Task C@{ assigned: 'Jake' }
         Task D@{ priority: 'High' }
     Combined metadata
-        Task A@{ ticket: ABC-123, assigned: 'Jake', priority: 'High' }
+        Task A@{ ticket: ABC, assigned: 'Jake', priority: 'High' }
     All priorities
         Very High@{ priority: 'Very High' }
         High@{ priority: 'High' }
@@ -594,7 +586,7 @@ kanban
         Task C@{ assigned: 'Jake' }
         Task D@{ priority: 'High' }
     Combined metadata
-        Task A@{ ticket: ABC-123, assigned: 'Jake', priority: 'High' }
+        Task A@{ ticket: ABC, assigned: 'Jake', priority: 'High' }
     All priorities
         Very High@{ priority: 'Very High' }
         High@{ priority: 'High' }
