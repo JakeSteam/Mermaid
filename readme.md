@@ -499,13 +499,23 @@ sankey-beta
 <tr><td>
 
 ```mermaid
-    XY
+xychart-beta
+    title "Chart title"
+    x-axis "Some months" [January, Febuary, March, April, May]
+    y-axis "How much I like them" 0.0 --> 1.0
+    bar [0.3, 0.1, 0.4, 0.8, 0.6]
+    line [5000, 6000, 7500, 8200, 9500]
 ```
 
 </td><td>
 
 ```
-    XY
+xychart-beta
+    title "Chart title"
+    x-axis "Some months" [January, Febuary, March, April, May]
+    y-axis "How much I like them" 0.0 --> 1.0
+    bar [0.3, 0.1, 0.4, 0.8, 0.6]
+    line [5000, 6000, 7500, 8200, 9500]
 ```
 
 <a href="/xy.md">XY diagram in Mermaid cheatsheet</a></td></tr>
