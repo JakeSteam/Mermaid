@@ -1,6 +1,6 @@
 # Pie charts cheatsheet
 
-[Official documentation](https://mermaid-js.github.io/mermaid/#/pie) & [live editor](https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoicGllXG5cIkRvZ3NcIiA6IDQyLjk2XG5cIkNhdHNcIiA6IDUwLjA1XG5cIlJhdHNcIiA6IDEwLjAxIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0).
+[Official documentation](https://mermaid.js.org/syntax/pie.html).
 
 ## Defining
 

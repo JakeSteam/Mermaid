@@ -1,10 +1,11 @@
 # Sequence diagrams cheatsheet
 
-[Official documentation](https://mermaid-js.github.io/mermaid/#/sequenceDiagram) & [live editor](https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5BbGljZS0-PkpvaG46IEhlbGxvIEpvaG4sIGhvdyBhcmUgeW91P1xubG9vcCBIZWFsdGhjaGVja1xuICAgIEpvaG4tPj5Kb2huOiBGaWdodCBhZ2FpbnN0IGh5cG9jaG9uZHJpYVxuZW5kXG5Ob3RlIHJpZ2h0IG9mIEpvaG46IFJhdGlvbmFsIHRob3VnaHRzIVxuSm9obi0tPj5BbGljZTogR3JlYXQhXG5Kb2huLT4-Qm9iOiBIb3cgYWJvdXQgeW91P1xuQm9iLS0-PkpvaG46IEpvbGx5IGdvb2QhIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0).
+[Official documentation](https://mermaid.js.org/syntax/sequenceDiagram.html).
 
 ## Participants
 
-### Types of participant 
+### Types of participant
+
 ```mermaid
 sequenceDiagram
     participant Defined Participant
@@ -26,6 +27,7 @@ sequenceDiagram
 ```
 
 ### Participant links
+
 ```mermaid
 sequenceDiagram
     participant p1 as Basic links
@@ -207,6 +209,7 @@ sequenceDiagram
 ## Misc
 
 ### Notes
+
 ```mermaid
 sequenceDiagram
     participant p1 as Participant 1
@@ -224,6 +227,7 @@ sequenceDiagram
 ```
 
 ### Comments
+
 ```mermaid
 sequenceDiagram
     %% A comment is hidden in here

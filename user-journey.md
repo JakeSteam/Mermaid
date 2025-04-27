@@ -1,6 +1,6 @@
 # User journey diagrams cheatsheet
 
-[Official documentation](https://mermaid-js.github.io/mermaid/#/user-journey) & [live editor](https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoic3RhdGVEaWFncmFtXG4gICAgWypdIC0tPiBTdGlsbFxuICAgIFN0aWxsIC0tPiBbKl1cbiAgICBTdGlsbCAtLT4gTW92aW5nXG4gICAgTW92aW5nIC0tPiBTdGlsbFxuICAgIE1vdmluZyAtLT4gQ3Jhc2hcbiAgICBDcmFzaCAtLT4gWypdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0).
+[Official documentation](https://mermaid.js.org/syntax/userJourney.html).
 
 ## Defining sections and tasks
 
@@ -8,7 +8,7 @@
 journey
     title Sections and Tasks
     section Section One
-        Task inside Section One: 5 
+        Task inside Section One: 5
     section Section Two
         Task inside Section Two: 5
         Task2 inside Section Two: 5
@@ -22,7 +22,7 @@ journey
 journey
     title Sections and Tasks
     section Section One
-        Task inside Section One: 5 
+        Task inside Section One: 5
     section Section Two
         Task inside Section Two: 5
         Task2 inside Section Two: 5

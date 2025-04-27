@@ -1,6 +1,6 @@
 # Requirement diagrams cheatsheet
 
-[Official documentation](https://mermaid-js.github.io/mermaid/#/requirementDiagram).
+[Official documentation](https://mermaid.js.org/syntax/requirementDiagram.html).
 
 ## Defining requirements
 
@@ -8,15 +8,15 @@
 requirementDiagram
     requirement UptimeRequirement {
         id: 1
-        text: Site Uptime 
+        text: Site Uptime
         risk: Medium
         verifymethod: Analysis
     }
 ```
 
-* `requirement` can be replaced by `functionalRequirement`, `interfaceRequirement`, `performanceRequirement`, `physicalRequirement`, or `designConstraint`.
-* `risk` can be defined as `Low`, `Medium`, or `High`.
-* `verifyMethod` can be defined as `Analysis`, `Inspection`, `Test`, or `Demonstration`.
+- `requirement` can be replaced by `functionalRequirement`, `interfaceRequirement`, `performanceRequirement`, `physicalRequirement`, or `designConstraint`.
+- `risk` can be defined as `Low`, `Medium`, or `High`.
+- `verifyMethod` can be defined as `Analysis`, `Inspection`, `Test`, or `Demonstration`.
 
 ## Defining elements
 
@@ -35,7 +35,7 @@ requirementDiagram
 
     requirement UptimeRequirement {
         id: 1
-        text: Site Uptime 
+        text: Site Uptime
         risk: Medium
         verifymethod: Analysis
     }
@@ -54,4 +54,4 @@ requirementDiagram
     containingElement - contains -> UptimeRequirement
 ```
 
-* `satisfies` can be replaced by `contains`, `copies`, `derives`, `verifies`, `refines`, or `traces`.
+- `satisfies` can be replaced by `contains`, `copies`, `derives`, `verifies`, `refines`, or `traces`.

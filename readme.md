@@ -3,7 +3,7 @@
 
 # Mermaid syntax references
 
-A rewrite of [the Mermaid documentation](https://mermaid.js.org/intro/syntax-reference.html) as a learning aid and cheatsheet.
+A rewrite of [the Mermaid documentation](https://mermaid.js.org/intro/syntax-reference.html) as a learning aid and cheatsheet. You can also experiment with Mermaid [in their interactive online editor](https://mermaid.live/edit)!
 
 <table>
 <tr><td>Example</td><td>Code</td></tr>

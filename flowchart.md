@@ -1,20 +1,20 @@
 # Flowcharts cheatsheet
 
-[Official documentation](https://mermaid-js.github.io/mermaid/#/flowchart) & [live editor](https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0hhcmRdIC0tPnxUZXh0fCBCKFJvdW5kKVxuICAgIEIgLS0-IEN7RGVjaXNpb259XG4gICAgQyAtLT58T25lfCBEW1Jlc3VsdCAxXVxuICAgIEMgLS0-fFR3b3wgRVtSZXN1bHQgMl0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ).
+[Official documentation](https://mermaid.js.org/syntax/flowchart.html).
 
 ## Nodes
 
 ### Node styles
 
 ```mermaid
-flowchart LR; 
+flowchart LR;
     1(Rounded) --> 2([Super rounded]) --> 3[[Bordered]] --> 4>Indented]
     5[/Slant right/] --> 6[\Slant left\] --> 7[/Squashed top\] --> 8[\Squashed bottom/]
     9[(Cylinder)] --> 10((Circle)) --> 11{Diamond} --> 12{{Hexagon}}
 ```
 
 ```
-flowchart LR; 
+flowchart LR;
     1(Rounded) --> 2([Super rounded]) --> 3[[Bordered]] --> 4>Indented]
     5[/Slant right/] --> 6[\Slant left\] --> 7[/Squashed top\] --> 8[\Squashed bottom/]
     9[(Cylinder)] --> 10((Circle)) --> 11{Diamond} --> 12{{Hexagon}}
@@ -36,7 +36,7 @@ flowchart LR
     click 2 "https://example.com" _blank
 ```
 
-*Note: It is possible to [use JavaScript for more advanced actions](https://mermaid-js.github.io/mermaid/#/flowchart?id=interaction) than a simple link.*
+_Note: It is possible to [use JavaScript for more advanced actions](https://mermaid-js.github.io/mermaid/#/flowchart?id=interaction) than a simple link._
 
 ## Connections
 
@@ -87,7 +87,7 @@ flowchart LR
     Long ---> Long2 ---> Long3
     Superlong -----> Superlong2
 ```
-    
+
 ### Arrow types
 
 ```mermaid
@@ -116,7 +116,7 @@ flowchart LR
 **TB**: Top to Bottom<br>(also **TD**: Top down)
 
 ```mermaid
-flowchart TB; 
+flowchart TB;
     Start --> Middle --> End
 ```
 
@@ -125,7 +125,7 @@ flowchart TB;
 **BT**: Bottom to Top
 
 ```mermaid
-flowchart BT; 
+flowchart BT;
     Start --> Middle --> End
 ```
 
@@ -137,7 +137,7 @@ flowchart BT;
 **LR**: Left to Right
 
 ```mermaid
-flowchart LR; 
+flowchart LR;
     Start --> Middle --> End
 ```
 
@@ -146,9 +146,10 @@ flowchart LR;
 **RL**: Right to Left
 
 ```mermaid
-flowchart RL; 
+flowchart RL;
     Start --> Middle --> End
 ```
+
 </td>
     </tr>
 </table>
@@ -156,6 +157,7 @@ flowchart RL;
 ## Subgraphs
 
 ### Defining
+
 ```mermaid
 flowchart TD
     subgraph a
@@ -165,7 +167,7 @@ flowchart TD
     subgraph b
     b1 --> b2
     end
-    
+
     subgraph c
     c1 --> c2
     end
@@ -180,25 +182,26 @@ flowchart TD
     subgraph b
     b1 --> b2
     end
-    
+
     subgraph c
     c1 --> c2
     end
 ```
 
 ### Linking
+
 ```mermaid
 flowchart LR
     subgraph a
     a1
-    a2 
+    a2
     end
 
     subgraph b
     b1
     b2
     end
-    
+
     subgraph c
     c1
     c2
@@ -214,14 +217,14 @@ flowchart LR
 flowchart LR
     subgraph a
     a1
-    a2 
+    a2
     end
 
     subgraph b
     b1
     b2
     end
-    
+
     subgraph c
     c1
     c2
@@ -234,6 +237,7 @@ flowchart LR
 ```
 
 ### Orientation
+
 ```mermaid
 flowchart TD
     subgraph a
@@ -245,7 +249,7 @@ flowchart TD
     direction BT
     b1 --> b2
     end
-    
+
     subgraph c
     direction LR
     c1 --> c2
@@ -268,7 +272,7 @@ flowchart TD
     direction BT
     b1 --> b2
     end
-    
+
     subgraph c
     direction LR
     c1 --> c2
@@ -282,6 +286,7 @@ flowchart TD
 ```
 
 ## Comments
+
 ```mermaid
 flowchart LR
     %% Comment here
