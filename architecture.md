@@ -110,20 +110,4 @@ architecture-beta
 
 ## Additional icons
 
-All icons from the Iconify ["Logos" set](https://icon-sets.iconify.design/logos/?keyword=logos) are built-in.
-
-```mermaid
-architecture-beta
-    service a(logos:aws-lambda)[AWS Lambda]
-    service b(logos:github-actions)[GitHub Actions]
-    service d(logos:google)[Google]
-    service e(logos:adyen)[Adyen]
-```
-
-```
-architecture-beta
-    service a(logos:aws-lambda)[AWS Lambda]
-    service b(logos:github-actions)[GitHub Actions]
-    service d(logos:google)[Google]
-    service e(logos:adyen)[Adyen]
-```
+Additional icons can be included by registering packs from "Iconify" [as per these instructions](https://mermaid.js.org/config/icons.html), however this is not possible within GitHub.

@@ -408,7 +408,7 @@ mindmap
                 Sub-sub-branch 1
 ```
 
-<a href="/mindmaps.md">Mindmaps diagram in Mermaid cheatsheet</a></td></tr>
+<a href="/mindmap.md">Mindmaps diagram in Mermaid cheatsheet</a></td></tr>
 
 <tr><td>
 
@@ -438,16 +438,7 @@ timeline
 
 <tr><td>
 
-```mermaid
-zenuml
-    @Actor "An actor"
-    @VirtualMachine "A virtual machine"
-    @GoogleSecurity "Google Security"
-    @S3 "S3 bucket"
-    "An actor"->"A virtual machine": Uses
-    "A virtual machine"->"Google Security": Logs in
-    "Google Security"->"S3 bucket": Stores data
-```
+Will not work within GitHub without additional configuration.
 
 </td><td>
 

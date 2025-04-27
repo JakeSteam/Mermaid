@@ -62,7 +62,7 @@ mindmap
 
 Each element can also add custom icons, if using an icon pack like Font Awesome (`fa fa-x`) or Material Design (`mdi mdi-x`). These **will not work directly on GitHub** without additional configuration (including stylesheets).
 
-Additionally, basic Markdown formatting (bold & italic) works within nose names:
+Additionally, basic Markdown formatting (bold & italic) works within node names:
 
 ```mermaid
 mindmap

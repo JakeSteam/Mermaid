@@ -4,6 +4,8 @@
 
 ZenUML is another way of defining [Sequence diagrams](/sequence.md), and seems much more intuitive and straightforward. However, it has slightly different functionality available.
 
+Note that this **requires [additional configuration](https://mermaid.js.org/syntax/zenuml.html)**, likely making it impossible to use on GitHub (hence all the errors below!)
+
 ## Participants
 
 ### Implicitly defined
