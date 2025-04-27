@@ -523,13 +523,25 @@ xychart-beta
 <tr><td>
 
 ```mermaid
-    block
+block-beta
+    columns 5
+    a:3 b:2 c d e f g h
+    block:myBlock:2
+        columns 2
+        i j k
+    end
 ```
 
 </td><td>
 
 ```
-    block
+block-beta
+    columns 5
+    a:3 b:2 c d e f g h
+    block:myBlock:2
+        columns 2
+        i j k
+    end
 ```
 
 <a href="/block.md">Block diagram in Mermaid cheatsheet</a></td></tr>
@@ -537,13 +549,29 @@ xychart-beta
 <tr><td>
 
 ```mermaid
-    packet
+packet-beta
+    title Packet diagram title
+    0-5: "First bytes"
+    6-15: "More bytes"
+    16-31: "Many more!"
+    32-63: "A defined row"
+    64-93: "Almost full row"
+    94: "A"
+    95: "B"
 ```
 
 </td><td>
 
 ```
-    packet
+packet-beta
+    title Packet diagram title
+    0-5: "First bytes"
+    6-15: "More bytes"
+    16-31: "Many more!"
+    32-63: "A defined row"
+    64-93: "Almost full row"
+    94: "A"
+    95: "B"
 ```
 
 <a href="/packet.md">Packet diagram in Mermaid cheatsheet</a></td></tr>
@@ -551,13 +579,37 @@ xychart-beta
 <tr><td>
 
 ```mermaid
-    kanban
+kanban
+    Individual metadata
+        Task B@{ ticket: ABC-123 }
+        Task C@{ assigned: 'Jake' }
+        Task D@{ priority: 'High' }
+    Combined metadata
+        Task A@{ ticket: ABC-123, assigned: 'Jake', priority: 'High' }
+    All priorities
+        Very High@{ priority: 'Very High' }
+        High@{ priority: 'High' }
+        Default
+        Low@{ priority: 'Low' }
+        Very Low@{ priority: 'Very Low' }
 ```
 
 </td><td>
 
 ```
-    kanban
+kanban
+    Individual metadata
+        Task B@{ ticket: ABC-123 }
+        Task C@{ assigned: 'Jake' }
+        Task D@{ priority: 'High' }
+    Combined metadata
+        Task A@{ ticket: ABC-123, assigned: 'Jake', priority: 'High' }
+    All priorities
+        Very High@{ priority: 'Very High' }
+        High@{ priority: 'High' }
+        Default
+        Low@{ priority: 'Low' }
+        Very Low@{ priority: 'Very Low' }
 ```
 
 <a href="/kanban.md">Kanban diagram in Mermaid cheatsheet</a></td></tr>
@@ -565,13 +617,29 @@ xychart-beta
 <tr><td>
 
 ```mermaid
-    architecture
+architecture-beta
+    service db(database)[Database]
+    service disk1(disk)[Storage]
+    service disk2(disk)[Storage]
+    service server(server)[Server]
+
+    db:L <-- R:server
+    disk1:T -- B:server
+    disk2:T <-- B:db
 ```
 
 </td><td>
 
 ```
-    architecture
+architecture-beta
+    service db(database)[Database]
+    service disk1(disk)[Storage]
+    service disk2(disk)[Storage]
+    service server(server)[Server]
+
+    db:L <-- R:server
+    disk1:T -- B:server
+    disk2:T <-- B:db
 ```
 
 <a href="/architecture.md">Architecture diagram in Mermaid cheatsheet</a></td></tr>
@@ -579,13 +647,23 @@ xychart-beta
 <tr><td>
 
 ```mermaid
-    radar
+radar-beta
+    title Language skills
+    axis English, French, German, Spanish, Dutch, Scottish, Welsh
+    curve a["User1"]{20, 30, 50, 60, 80, 30, 30}
+    curve b["User2"]{80, 30, 40, 50, 90, 10, 20}
+    curve c["User3"]{100, 100, 30, 50, 70, 70, 40}
 ```
 
 </td><td>
 
 ```
-    radar
+radar-beta
+    title Language skills
+    axis English, French, German, Spanish, Dutch, Scottish, Welsh
+    curve a["User1"]{20, 30, 50, 60, 80, 30, 30}
+    curve b["User2"]{80, 30, 40, 50, 90, 10, 20}
+    curve c["User3"]{100, 100, 30, 50, 70, 70, 40}
 ```
 
 <a href="/radar.md">Radar diagram in Mermaid cheatsheet</a></td></tr>
