@@ -340,15 +340,15 @@ gitGraph:
 C4Dynamic
     title Internet Banking System Application
 
-    ContainerDb(c4, "Database", "Schema", "Stores etc.")
+    ContainerDb(c4, "Database", "Schema", "Stores")
     Container(c1, "SPA", "JS", "Banking.")
     Container_Boundary(b, "API Application") {
       Component(c3, "Security", "Bean", "Login.")
-      Component(c2, "Controller", "Controller", "Access.")
+      Component(c2, "Controller", "Controller", "A")
     }
-    Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
+    Rel(c1, c2, "Submits", "JSON/HTTPS")
     Rel(c2, c3, "Calls isAuthenticated() on")
-    Rel(c3, c4, "select * from users where username = ?", "JDBC")
+    Rel(c3, c4, "select *", "JDBC")
 ```
 
 </td><td>
@@ -357,15 +357,15 @@ C4Dynamic
 C4Dynamic
     title Internet Banking System Application
 
-    ContainerDb(c4, "Database", "Schema", "Stores etc.")
+    ContainerDb(c4, "Database", "Schema", "Stores")
     Container(c1, "SPA", "JS", "Banking.")
     Container_Boundary(b, "API Application") {
       Component(c3, "Security", "Bean", "Login.")
-      Component(c2, "Controller", "Controller", "Access.")
+      Component(c2, "Controller", "Controller", "A")
     }
-    Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
+    Rel(c1, c2, "Submits", "JSON/HTTPS")
     Rel(c2, c3, "Calls isAuthenticated() on")
-    Rel(c3, c4, "select * from users where username = ?", "JDBC")
+    Rel(c3, c4, "select *", "JDBC")
 ```
 
 <a href="/c4.md">C4 diagram in Mermaid cheatsheet</a></td></tr>
@@ -568,7 +568,7 @@ kanban
         Task C@{ assigned: 'Jake' }
         Task D@{ priority: 'High' }
     Combined metadata
-        Task A@{ ticket: ABC, assigned: 'Jake', priority: 'High' }
+        Task A@{ ticket: ABC, assigned: 'J', priority: 'High' }
     All priorities
         Very High@{ priority: 'Very High' }
         High@{ priority: 'High' }
@@ -586,7 +586,7 @@ kanban
         Task C@{ assigned: 'Jake' }
         Task D@{ priority: 'High' }
     Combined metadata
-        Task A@{ ticket: ABC, assigned: 'Jake', priority: 'High' }
+        Task A@{ ticket: ABC, assigned: 'J', priority: 'High' }
     All priorities
         Very High@{ priority: 'Very High' }
         High@{ priority: 'High' }
@@ -632,7 +632,7 @@ architecture-beta
 ```mermaid
 radar-beta
     title Language skills
-    axis English, French, German, Spanish, Dutch, Scottish, Welsh
+    axis English, French, German, Spanish, Dutch, Abc, Def
     curve a["User1"]{20, 30, 50, 60, 80, 30, 30}
     curve b["User2"]{80, 30, 40, 50, 90, 10, 20}
     curve c["User3"]{100, 100, 30, 50, 70, 70, 40}
@@ -643,7 +643,7 @@ radar-beta
 ```
 radar-beta
     title Language skills
-    axis English, French, German, Spanish, Dutch, Scottish, Welsh
+    axis English, French, German, Spanish, Dutch, Abc, Def
     curve a["User1"]{20, 30, 50, 60, 80, 30, 30}
     curve b["User2"]{80, 30, 40, 50, 90, 10, 20}
     curve c["User3"]{100, 100, 30, 50, 70, 70, 40}
