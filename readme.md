@@ -1,5 +1,5 @@
-> [!WARNING]  
-> This PR reflects Mermaid syntax as of ~2022, and doesn't include newer diagram types (yet). Feel free to raise a PR adding them!
+> [!TIP]  
+> **Last updated Apr 2025** to include Quadrant, C4, Mindmap, ZenUML, Timeline, Sankey, XY, Block, Architecture, Kanban, Packet, and Radar diagrams!
 
 # Mermaid syntax references
 
